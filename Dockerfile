@@ -5,6 +5,7 @@ MAINTAINER andrew_junzki
 COPY elasticsearch-analysis-ik-5.1.1.zip /tmp
 
 RUN mkdir -p /usr/share/elasticsearch/plugins/ik/
+RUN mkdir -p /etc/
 
 RUN unzip /tmp/elasticsearch-analysis-ik-5.1.1.zip -d /usr/share/elasticsearch/plugins/ik/
 

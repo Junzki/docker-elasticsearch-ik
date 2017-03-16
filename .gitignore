@@ -23,3 +23,5 @@ hs_err_pid*
 
 # Build target.
 dist/
+elasticsearch-analysis-ik-5.1.1.zip
+config/
