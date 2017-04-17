@@ -1,0 +1,3 @@
+[submodule "elasticsearch-analysis-ik"]
+	path = elasticsearch-analysis-ik
+	url = https://github.com/medcl/elasticsearch-analysis-ik.git

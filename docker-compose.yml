@@ -6,3 +6,4 @@ services:
      - "127.0.0.1:9200:9200"
     volumes:
      - /data/elastic/:/usr/share/elasticsearch/data
+     - ./config/:/usr/share/elasticsearch/plugins/ik/config
